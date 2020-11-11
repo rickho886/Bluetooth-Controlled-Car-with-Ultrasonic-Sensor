@@ -1,0 +1,509 @@
+
+*** Running vivado
+    with args -log main.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source main.tcl
+
+
+****** Vivado v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source main.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Reinstall/Eric/Logic Design Laboratory/Final_Project/vivado-library'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+Command: synth_design -top main -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 1048 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 711.566 ; gain = 178.730
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'main' [D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/sources_1/new/main.v:33]
+INFO: [Synth 8-6157] synthesizing module 'clock_divider' [D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/sources_1/new/main.v:364]
+	Parameter n bound to: 13 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'clock_divider' (1#1) [D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/sources_1/new/main.v:364]
+INFO: [Synth 8-6157] synthesizing module 'clock_divider__parameterized0' [D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/sources_1/new/main.v:364]
+	Parameter n bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'clock_divider__parameterized0' (1#1) [D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/sources_1/new/main.v:364]
+INFO: [Synth 8-6157] synthesizing module 'clock_divider__parameterized1' [D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/sources_1/new/main.v:364]
+	Parameter n bound to: 18 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'clock_divider__parameterized1' (1#1) [D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/sources_1/new/main.v:364]
+INFO: [Synth 8-6157] synthesizing module 'clock_divider__parameterized2' [D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/sources_1/new/main.v:364]
+	Parameter n bound to: 19 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'clock_divider__parameterized2' (1#1) [D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/sources_1/new/main.v:364]
+INFO: [Synth 8-6157] synthesizing module 'clock_divider__parameterized3' [D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/sources_1/new/main.v:364]
+	Parameter n bound to: 22 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'clock_divider__parameterized3' (1#1) [D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/sources_1/new/main.v:364]
+INFO: [Synth 8-6157] synthesizing module 'bluetooth_RX' [D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/sources_1/new/main.v:279]
+	Parameter clk_freq bound to: 100000000 - type: integer 
+	Parameter baud_rate bound to: 9600 - type: integer 
+	Parameter div_sample bound to: 4 - type: integer 
+	Parameter div_counter bound to: 2604 - type: integer 
+	Parameter mid_sample bound to: 2 - type: integer 
+	Parameter div_bit bound to: 10 - type: integer 
+INFO: [Synth 8-226] default block is never used [D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/sources_1/new/main.v:336]
+INFO: [Synth 8-6155] done synthesizing module 'bluetooth_RX' (2#1) [D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/sources_1/new/main.v:279]
+INFO: [Synth 8-6157] synthesizing module 'motor_control' [D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/sources_1/new/main.v:258]
+INFO: [Synth 8-6155] done synthesizing module 'motor_control' (3#1) [D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/sources_1/new/main.v:258]
+INFO: [Synth 8-6157] synthesizing module 'seven_segment' [D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/sources_1/new/main.v:379]
+INFO: [Synth 8-6155] done synthesizing module 'seven_segment' (4#1) [D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/sources_1/new/main.v:379]
+INFO: [Synth 8-6157] synthesizing module '_player_control' [D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/sources_1/new/main.v:434]
+INFO: [Synth 8-6155] done synthesizing module '_player_control' (5#1) [D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/sources_1/new/main.v:434]
+INFO: [Synth 8-6157] synthesizing module 'music_example' [D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/sources_1/new/main.v:499]
+INFO: [Synth 8-6155] done synthesizing module 'music_example' (6#1) [D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/sources_1/new/main.v:499]
+INFO: [Synth 8-6157] synthesizing module 'note_gen' [D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/sources_1/new/main.v:1188]
+INFO: [Synth 8-6155] done synthesizing module 'note_gen' (7#1) [D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/sources_1/new/main.v:1188]
+INFO: [Synth 8-6157] synthesizing module 'speaker_control' [D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/sources_1/new/main.v:1096]
+INFO: [Synth 8-226] default block is never used [D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/sources_1/new/main.v:1151]
+INFO: [Synth 8-6155] done synthesizing module 'speaker_control' (8#1) [D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/sources_1/new/main.v:1096]
+INFO: [Synth 8-6157] synthesizing module 'sonic' [D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/sources_1/new/main.v:1287]
+INFO: [Synth 8-6157] synthesizing module 'clock_divider__parameterized4' [D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/sources_1/new/main.v:364]
+	Parameter n bound to: 25 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'clock_divider__parameterized4' (8#1) [D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/sources_1/new/main.v:364]
+INFO: [Synth 8-6155] done synthesizing module 'sonic' (9#1) [D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/sources_1/new/main.v:1287]
+INFO: [Synth 8-6155] done synthesizing module 'main' (10#1) [D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/sources_1/new/main.v:33]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 768.730 ; gain = 235.895
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 773.047 ; gain = 240.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 773.047 ; gain = 240.211
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/constrs_1/new/cons.xdc]
+WARNING: [Vivado 12-584] No ports matched 'left_led'. [D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/constrs_1/new/cons.xdc:119]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/constrs_1/new/cons.xdc:119]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'left_led'. [D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/constrs_1/new/cons.xdc:120]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/constrs_1/new/cons.xdc:120]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'right_led'. [D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/constrs_1/new/cons.xdc:121]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/constrs_1/new/cons.xdc:121]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'right_led'. [D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/constrs_1/new/cons.xdc:122]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/constrs_1/new/cons.xdc:122]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/constrs_1/new/cons.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/constrs_1/new/cons.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/main_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/main_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 897.348 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 897.348 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 897.348 ; gain = 364.512
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 897.348 ; gain = 364.512
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 897.348 ; gain = 364.512
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'DIGIT_reg' in module 'seven_segment'
+INFO: [Synth 8-5544] ROM "DIGIT" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "toneL" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "toneR" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 897.348 ; gain = 364.512
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 2     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               28 Bit    Registers := 2     
+	               16 Bit    Registers := 4     
+	               12 Bit    Registers := 1     
+	               10 Bit    Registers := 3     
+	                9 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 15    
++---Muxes : 
+	 502 Input     26 Bit        Muxes := 2     
+	   2 Input     16 Bit        Muxes := 8     
+	   2 Input     12 Bit        Muxes := 6     
+	   3 Input     12 Bit        Muxes := 2     
+	   2 Input     10 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 4     
+	   5 Input      4 Bit        Muxes := 2     
+	   8 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 2     
+	   4 Input      3 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 22    
+	   4 Input      1 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 4     
+	   5 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module main 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   8 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 2     
+	   4 Input      3 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 8     
+Module bluetooth_RX 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 8     
+	   4 Input      1 Bit        Muxes := 1     
+Module motor_control 
+Detailed RTL Component Info : 
++---Muxes : 
+	   8 Input      1 Bit        Muxes := 4     
+Module seven_segment 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 4     
+	   5 Input      4 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 1     
+Module _player_control 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 2     
++---Registers : 
+	               12 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 6     
+	   3 Input     12 Bit        Muxes := 2     
+Module music_example 
+Detailed RTL Component Info : 
++---Muxes : 
+	 502 Input     26 Bit        Muxes := 2     
+Module note_gen 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 8     
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 6     
+Module speaker_control 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 2     
+	                9 Bit    Registers := 1     
+Module sonic 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 2     
++---Registers : 
+	               28 Bit    Registers := 2     
+	               10 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-3886] merging instance 'volume_reg[0]' (FDRE) to 'volume_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\volume_reg[1] )
+INFO: [Synth 8-3886] merging instance 'noteGen_00/audio_right_reg[1]' (FDE) to 'noteGen_00/audio_right_reg[14]'
+INFO: [Synth 8-3886] merging instance 'noteGen_00/audio_right_reg[2]' (FDE) to 'noteGen_00/audio_right_reg[14]'
+INFO: [Synth 8-3886] merging instance 'noteGen_00/audio_right_reg[3]' (FDE) to 'noteGen_00/audio_right_reg[14]'
+INFO: [Synth 8-3886] merging instance 'noteGen_00/audio_right_reg[4]' (FDE) to 'noteGen_00/audio_right_reg[14]'
+INFO: [Synth 8-3886] merging instance 'noteGen_00/audio_right_reg[5]' (FDE) to 'noteGen_00/audio_right_reg[14]'
+INFO: [Synth 8-3886] merging instance 'noteGen_00/audio_right_reg[6]' (FDE) to 'noteGen_00/audio_right_reg[14]'
+INFO: [Synth 8-3886] merging instance 'noteGen_00/audio_right_reg[7]' (FDE) to 'noteGen_00/audio_right_reg[14]'
+INFO: [Synth 8-3886] merging instance 'noteGen_00/audio_right_reg[8]' (FDE) to 'noteGen_00/audio_right_reg[14]'
+INFO: [Synth 8-3886] merging instance 'noteGen_00/audio_right_reg[9]' (FDE) to 'noteGen_00/audio_right_reg[14]'
+INFO: [Synth 8-3886] merging instance 'noteGen_00/audio_right_reg[10]' (FDE) to 'noteGen_00/audio_right_reg[14]'
+INFO: [Synth 8-3886] merging instance 'noteGen_00/audio_right_reg[11]' (FDE) to 'noteGen_00/audio_right_reg[14]'
+INFO: [Synth 8-3886] merging instance 'noteGen_00/audio_right_reg[12]' (FDE) to 'noteGen_00/audio_right_reg[14]'
+INFO: [Synth 8-3886] merging instance 'noteGen_00/audio_right_reg[13]' (FDE) to 'noteGen_00/audio_right_reg[14]'
+INFO: [Synth 8-3886] merging instance 'noteGen_00/audio_left_reg[1]' (FDE) to 'noteGen_00/audio_left_reg[14]'
+INFO: [Synth 8-3886] merging instance 'noteGen_00/audio_left_reg[2]' (FDE) to 'noteGen_00/audio_left_reg[14]'
+INFO: [Synth 8-3886] merging instance 'noteGen_00/audio_left_reg[3]' (FDE) to 'noteGen_00/audio_left_reg[14]'
+INFO: [Synth 8-3886] merging instance 'noteGen_00/audio_left_reg[4]' (FDE) to 'noteGen_00/audio_left_reg[14]'
+INFO: [Synth 8-3886] merging instance 'noteGen_00/audio_left_reg[5]' (FDE) to 'noteGen_00/audio_left_reg[14]'
+INFO: [Synth 8-3886] merging instance 'noteGen_00/audio_left_reg[6]' (FDE) to 'noteGen_00/audio_left_reg[14]'
+INFO: [Synth 8-3886] merging instance 'noteGen_00/audio_left_reg[7]' (FDE) to 'noteGen_00/audio_left_reg[14]'
+INFO: [Synth 8-3886] merging instance 'noteGen_00/audio_left_reg[8]' (FDE) to 'noteGen_00/audio_left_reg[14]'
+INFO: [Synth 8-3886] merging instance 'noteGen_00/audio_left_reg[9]' (FDE) to 'noteGen_00/audio_left_reg[14]'
+INFO: [Synth 8-3886] merging instance 'noteGen_00/audio_left_reg[10]' (FDE) to 'noteGen_00/audio_left_reg[14]'
+INFO: [Synth 8-3886] merging instance 'noteGen_00/audio_left_reg[11]' (FDE) to 'noteGen_00/audio_left_reg[14]'
+INFO: [Synth 8-3886] merging instance 'noteGen_00/audio_left_reg[12]' (FDE) to 'noteGen_00/audio_left_reg[14]'
+INFO: [Synth 8-3886] merging instance 'noteGen_00/audio_left_reg[13]' (FDE) to 'noteGen_00/audio_left_reg[14]'
+INFO: [Synth 8-3886] merging instance 'sc/audio_right_reg[1]' (FDC) to 'sc/audio_right_reg[2]'
+INFO: [Synth 8-3886] merging instance 'sc/audio_right_reg[2]' (FDC) to 'sc/audio_right_reg[3]'
+INFO: [Synth 8-3886] merging instance 'sc/audio_right_reg[3]' (FDC) to 'sc/audio_right_reg[4]'
+INFO: [Synth 8-3886] merging instance 'sc/audio_right_reg[4]' (FDC) to 'sc/audio_right_reg[5]'
+INFO: [Synth 8-3886] merging instance 'sc/audio_right_reg[5]' (FDC) to 'sc/audio_right_reg[6]'
+INFO: [Synth 8-3886] merging instance 'sc/audio_right_reg[6]' (FDC) to 'sc/audio_right_reg[7]'
+INFO: [Synth 8-3886] merging instance 'sc/audio_right_reg[7]' (FDC) to 'sc/audio_right_reg[8]'
+INFO: [Synth 8-3886] merging instance 'sc/audio_right_reg[8]' (FDC) to 'sc/audio_right_reg[9]'
+INFO: [Synth 8-3886] merging instance 'sc/audio_right_reg[9]' (FDC) to 'sc/audio_right_reg[10]'
+INFO: [Synth 8-3886] merging instance 'sc/audio_right_reg[10]' (FDC) to 'sc/audio_right_reg[11]'
+INFO: [Synth 8-3886] merging instance 'sc/audio_right_reg[11]' (FDC) to 'sc/audio_right_reg[12]'
+INFO: [Synth 8-3886] merging instance 'sc/audio_right_reg[12]' (FDC) to 'sc/audio_right_reg[13]'
+INFO: [Synth 8-3886] merging instance 'sc/audio_right_reg[13]' (FDC) to 'sc/audio_right_reg[14]'
+INFO: [Synth 8-3886] merging instance 'sc/audio_left_reg[1]' (FDC) to 'sc/audio_left_reg[2]'
+INFO: [Synth 8-3886] merging instance 'sc/audio_left_reg[2]' (FDC) to 'sc/audio_left_reg[3]'
+INFO: [Synth 8-3886] merging instance 'sc/audio_left_reg[3]' (FDC) to 'sc/audio_left_reg[4]'
+INFO: [Synth 8-3886] merging instance 'sc/audio_left_reg[4]' (FDC) to 'sc/audio_left_reg[5]'
+INFO: [Synth 8-3886] merging instance 'sc/audio_left_reg[5]' (FDC) to 'sc/audio_left_reg[6]'
+INFO: [Synth 8-3886] merging instance 'sc/audio_left_reg[6]' (FDC) to 'sc/audio_left_reg[7]'
+INFO: [Synth 8-3886] merging instance 'sc/audio_left_reg[7]' (FDC) to 'sc/audio_left_reg[8]'
+INFO: [Synth 8-3886] merging instance 'sc/audio_left_reg[8]' (FDC) to 'sc/audio_left_reg[9]'
+INFO: [Synth 8-3886] merging instance 'sc/audio_left_reg[9]' (FDC) to 'sc/audio_left_reg[10]'
+INFO: [Synth 8-3886] merging instance 'sc/audio_left_reg[10]' (FDC) to 'sc/audio_left_reg[11]'
+INFO: [Synth 8-3886] merging instance 'sc/audio_left_reg[11]' (FDC) to 'sc/audio_left_reg[12]'
+INFO: [Synth 8-3886] merging instance 'sc/audio_left_reg[12]' (FDC) to 'sc/audio_left_reg[13]'
+INFO: [Synth 8-3886] merging instance 'sc/audio_left_reg[13]' (FDC) to 'sc/audio_left_reg[14]'
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 897.348 ; gain = 364.512
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 897.348 ; gain = 364.512
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 912.531 ; gain = 379.695
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:50 ; elapsed = 00:00:51 . Memory (MB): peak = 937.516 ; gain = 404.680
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:54 ; elapsed = 00:00:55 . Memory (MB): peak = 942.953 ; gain = 410.117
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:54 ; elapsed = 00:00:55 . Memory (MB): peak = 942.953 ; gain = 410.117
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:54 ; elapsed = 00:00:56 . Memory (MB): peak = 942.953 ; gain = 410.117
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:54 ; elapsed = 00:00:56 . Memory (MB): peak = 942.953 ; gain = 410.117
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:54 ; elapsed = 00:00:56 . Memory (MB): peak = 942.953 ; gain = 410.117
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:54 ; elapsed = 00:00:56 . Memory (MB): peak = 942.953 ; gain = 410.117
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |   601|
+|3     |LUT1   |    30|
+|4     |LUT2   |   952|
+|5     |LUT3   |  1023|
+|6     |LUT4   |   181|
+|7     |LUT5   |   122|
+|8     |LUT6   |   214|
+|9     |FDCE   |    61|
+|10    |FDRE   |   277|
+|11    |FDSE   |     5|
+|12    |IBUF   |     8|
+|13    |OBUF   |    24|
++------+-------+------+
+
+Report Instance Areas: 
++------+------------------+------------------------------+------+
+|      |Instance          |Module                        |Cells |
++------+------------------+------------------------------+------+
+|1     |top               |                              |  3499|
+|2     |  clock_13        |clock_divider                 |    18|
+|3     |  clock_19        |clock_divider__parameterized2 |    25|
+|4     |  clock_22        |clock_divider__parameterized3 |    29|
+|5     |  nolabel_line111 |bluetooth_RX                  |    99|
+|6     |  nolabel_line126 |seven_segment                 |    21|
+|7     |  nolabel_line181 |sonic                         |   911|
+|8     |    clock_25      |clock_divider__parameterized4 |    33|
+|9     |  noteGen_00      |note_gen                      |   734|
+|10    |  playerCtrl_00   |_player_control               |  1531|
+|11    |  sc              |speaker_control               |    28|
++------+------------------+------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:54 ; elapsed = 00:00:56 . Memory (MB): peak = 942.953 ; gain = 410.117
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:44 ; elapsed = 00:00:52 . Memory (MB): peak = 942.953 ; gain = 285.816
+Synthesis Optimization Complete : Time (s): cpu = 00:00:55 ; elapsed = 00:00:56 . Memory (MB): peak = 942.953 ; gain = 410.117
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 601 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 959.023 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+105 Infos, 4 Warnings, 4 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:04 ; elapsed = 00:01:06 . Memory (MB): peak = 959.023 ; gain = 666.129
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 959.023 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.runs/synth_1/main.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file main_utilization_synth.rpt -pb main_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Jan  9 00:41:31 2020...

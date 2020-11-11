@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reinstall/Eric/Logic Design Laboratory/Final_Project/Final_Project.srcs/sources_1/new/main.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module main
+INFO: [VRFC 10-311] analyzing module baud_rate_gen
+INFO: [VRFC 10-311] analyzing module transmitter
+INFO: [VRFC 10-311] analyzing module receiver
